@@ -1,0 +1,65 @@
+
+/* **********************************************************88 */
+mat-chip-list{
+    margin: 2rem;
+}
+.chip{
+    padding: 0px 2rem;
+    height: 50px;
+    /* width: 3000px; */
+}
+
+.grid-list{
+    margin: 2rem;
+}
+.grid-header img{
+    height: 100%;
+    width: 100%;
+}
+.grid-footer h3{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.main .right-side .grid-header{
+    height: 17rem;
+    padding:0px;
+    background: white;
+}
+.main .right-side .grid-footer{
+    display:block;
+    height: 7rem; 
+    background: white; 
+    color: black; 
+    padding:0px;
+}
+
+
+/* ************************************************** */
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .fixed-container {
+    height: 5rem;
+  }
+  .content-wrapper {
+    display: flex;
+    flex: 1;
+    min-height: 0px;
+  }
+  .overflow-container {
+    flex: 1;
+    overflow: auto;
+  }
+  .overflow-content {
+    height: auto;
+    color: black;
+    margin-bottom: 6rem;
+   }
+/* *************************************************************** */
+@media only screen and (max-width: 600px)  {
+    .main-container{
+        height: 75vh;
+    }
+}

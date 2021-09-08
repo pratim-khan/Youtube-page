@@ -1,0 +1,113 @@
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.nav-menu .front{
+  margin-bottom: 2rem;
+} 
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.fixed-container {
+  height: 60px;
+}
+.content-wrapper {
+  display: flex;
+  flex: 1;
+  min-height: 0px;
+}
+.overflow-container {
+  flex: 1;
+  overflow: auto;
+}
+.overflow-content {
+  height: 2000px;
+  color: black;
+}
+.mat-sidenav button{
+  margin: 0rem .5rem 0rem 0rem;
+}
+.sidenav-items .sidenav-item{
+  display: block;
+  /* border: 2px solid black; */
+  padding:0px 10px;
+}
+.sidenav-items .sidenav-item a{
+  text-decoration: none;
+  padding: 1rem;
+  /* color: black; */
+}
+a{
+  color: black;
+}
+.sidenav-items .sidenav-item a p{
+  margin: 0rem 1rem;
+  padding-top: 0.3rem;
+}
+.sidenav-items{
+  margin: 1rem 0px;
+}
+.sidenav-items h4{
+  margin-left:1rem ;
+  color: gray;
+}
+mat-sidenav{
+  font-size: 1.6rem;
+}
+.sidenav-item:hover{
+  background: lightgray
+}
+
+/* *************************************************** */
+.mat-sidenav-content{
+  padding: 1rem 0px;
+  height: auto;
+}
+.end-items{
+  padding-left:5rem ;
+}
+.side-nav-content{
+  margin-bottom: 1rem;
+}
+.main-content p{
+  font-size: 1rem;
+}
+/* ***********************************************************
+ */
+.sides{
+  padding: 2rem 0px;
+  text-align: center;
+}
+.side{
+  text-decoration: none;
+   /* color: black; */
+   padding: 20px 5px;
+}
+.sides .side:hover{
+  background-color: lightgrey;
+}
+a{
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+}
+p{
+  font-size: 1.6rem;
+}
+/* ************************************************************ */
+/* media-quarey *******************************************8 */
+@media only screen and (max-width: 600px){
+ .footer-container .footer-content a{
+   text-decoration: none;
+   color: black;
+ }
+
+}
+.active{
+  color: red;
+}

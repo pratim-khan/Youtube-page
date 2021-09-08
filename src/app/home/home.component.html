@@ -1,0 +1,124 @@
+<div class="main">
+    <div  class="right-side" >
+        <div class="main-container">
+            <div class="fixed-container">
+              <div >
+                <mat-divider></mat-divider>
+                <div class="chip">
+                    <mat-chip-list  cdkDropList cdkDropListOrientation="horizontal">
+                        <mat-chip class="example-box" cdkDrag *ngFor="let chip of chips" >
+                            {{chip.name}}
+                        </mat-chip>
+                    </mat-chip-list>
+                </div>
+                <mat-divider></mat-divider>
+                </div>
+            </div>
+            <div class="content-wrapper">
+              <div class="overflow-container">
+                <div class="overflow-content">
+                  <div>
+                    <mat-grid-list class="grid-list" cols="4" rowHeight="250px" gutterSize="20px" fxLayout.gt-sm fxHide.xs fxHide.sm>
+                        <a href="">
+                            <mat-grid-tile class="grid-tile" *ngFor="let tile of matgrid" [colspan]="tile.cols" 
+                            [rowspan]="tile.rows">
+                            <mat-grid-tile-header class="grid-header"><img src="{{tile.img}}" alt=""></mat-grid-tile-header>
+                            <mat-grid-tile-footer class="grid-footer">
+                                <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px" >
+                                    <mat-icon>menu</mat-icon>
+                                    <div>
+                                        <h3>{{tile.h3}}</h3>
+                                        <p>{{tile.p}}</p>
+                                        <p>{{tile.view}}{{tile.week}}</p>
+                                    </div>
+                                </div>
+                            </mat-grid-tile-footer>
+                            </mat-grid-tile>
+                        </a>
+                    </mat-grid-list>
+                    <mat-grid-list class="grid-list" cols="1" rowHeight="250px" gutterSize="20px" fxLayout.xs fxHide.gt-sm fxHide.sm>
+                        <a href="">
+                            <mat-grid-tile class="grid-tile" *ngFor="let tile of matgrid" [colspan]="tile.cols" 
+                            [rowspan]="tile.rows">
+                            <mat-grid-tile-header class="grid-header"><img src="{{tile.img}}" alt=""></mat-grid-tile-header>
+                            <mat-grid-tile-footer class="grid-footer">
+                                <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px" >
+                                    <mat-icon>menu</mat-icon>
+                                    <div>
+                                        <h3>{{tile.h3}}</h3>
+                                        <p>{{tile.p}}</p>
+                                        <p>{{tile.view}}{{tile.week}}</p>
+                                    </div>
+                                </div>
+                            </mat-grid-tile-footer>
+                            </mat-grid-tile>
+                        </a>
+                    </mat-grid-list>
+                    <mat-grid-list class="grid-list" cols="3" rowHeight="250px" gutterSize="20px" fxLayout.sm fxHide.gt-sm fxHide.xs>
+                        <a href="">
+                            <mat-grid-tile class="grid-tile" *ngFor="let tile of matgrid" [colspan]="tile.cols" 
+                            [rowspan]="tile.rows">
+                            <mat-grid-tile-header class="grid-header"><img src="{{tile.img}}" alt=""></mat-grid-tile-header>
+                            <mat-grid-tile-footer class="grid-footer">
+                                <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px" >
+                                    <mat-icon>menu</mat-icon>
+                                    <div>
+                                        <h3>{{tile.h3}}</h3>
+                                        <p>{{tile.p}}</p>
+                                        <p>{{tile.view}}  {{tile.week}}</p>
+                                    </div>
+                                </div>
+                            </mat-grid-tile-footer>
+                            </mat-grid-tile>
+                        </a>
+                    </mat-grid-list>
+                </div>
+              </div>
+            </div>
+          </div> -->
+    <!-- </div>
+</div>
+<!-- <div class="main" style="border: 2px solid red;">
+    <div>
+        <div >
+            <mat-divider></mat-divider>
+            <div class="chip">
+                <mat-chip-list  cdkDropList cdkDropListOrientation="horizontal">
+                    <mat-chip class="example-box" cdkDrag *ngFor="let chip of chips" >
+                        {{chip.name}}
+                    </mat-chip>
+                </mat-chip-list>
+            </div>
+            <mat-divider></mat-divider>
+        </div>
+        
+    </div>
+    <div class="right-side">
+        <mat-grid-list class="grid-list" cols="4" rowHeight="250px" gutterSize="20px" fxLayout.gt-sm fxHide.xs fxHide.sm>
+            <a href="">
+                <mat-grid-tile class="grid-tile" *ngFor="let tile of matgrid" [colspan]="tile.cols" 
+                [rowspan]="tile.rows">
+                <mat-grid-tile-header class="grid-header"><img src="{{tile.img}}" alt=""></mat-grid-tile-header>
+                <mat-grid-tile-footer class="grid-footer">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, vitae?</p>
+                </mat-grid-tile-footer>
+                </mat-grid-tile>
+            </a>
+        </mat-grid-list>
+        <mat-grid-list class="grid-list" cols="1" rowHeight="250px" gutterSize="20px" fxLayout.xs fxHide.gt-sm fxHide.sm>
+            <a href="">
+                <mat-grid-tile class="grid-tile" *ngFor="let tile of matgrid" [colspan]="tile.cols" 
+                [rowspan]="tile.rows">
+                <mat-grid-tile-header class="grid-header"><img src="{{tile.img}}" alt=""></mat-grid-tile-header>
+                <mat-grid-tile-footer class="grid-footer">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, vitae?</p>
+                </mat-grid-tile-footer>
+                </mat-grid-tile>
+            </a>
+        </mat-grid-list>
+    </div>
+
+</div> -->
+
